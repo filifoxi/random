@@ -477,6 +477,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kfcobchod"
+    },
+    {
+      "name": "Slepiceboss",
+      "type": "mob",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slepiceboss"
     }
   ],
   "variable_elements": [],
@@ -494,8 +503,10 @@
       "block.slepice.slepwood_block": "Block of Slepwood",
       "item.slepice.sleporeaxe": "Sleporeaxe",
       "item.slepice.sleporearmor_helmet": "Sleporearmor Helmet",
+      "item.slepice.slepiceboss_spawn_egg": "Slepiceboss Spawn Egg",
       "biome.slepice.slepin": "Slepín",
       "item.slepice.slepon": "Slepon Portal Igniter",
+      "entity.slepice.slepiceboss": "Slepiceboss",
       "fluid.slepicevoda": "Slepicevoda",
       "block.slepice.redgrass": "Redgrass",
       "item.slepice.sleporepickaxe": "Sleporepickaxe",
