@@ -12,11 +12,9 @@ import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.DungeonHooks;
 
-import net.minecraft.world.server.ServerBossInfo;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
-import net.minecraft.world.BossInfo;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
@@ -26,7 +24,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -168,29 +165,6 @@ public class KfcmobEntity extends SlepiceModElements.ModElement {
 			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
-		}
-
-		@Override
-		public boolean isNonBoss() {
-			return false;
-		}
-		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.PURPLE, BossInfo.Overlay.PROGRESS);
-		@Override
-		public void addTrackingPlayer(ServerPlayerEntity player) {
-			super.addTrackingPlayer(player);
-			this.bossInfo.addPlayer(player);
-		}
-
-		@Override
-		public void removeTrackingPlayer(ServerPlayerEntity player) {
-			super.removeTrackingPlayer(player);
-			this.bossInfo.removePlayer(player);
-		}
-
-		@Override
-		public void updateAITasks() {
-			super.updateAITasks();
-			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
 
 		public void livingTick() {
