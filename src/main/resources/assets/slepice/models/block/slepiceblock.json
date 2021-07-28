@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "slepice:blocks/chicken_dungeons",
+    "particle": "slepice:blocks/chicken_dungeons"
+  }
+}

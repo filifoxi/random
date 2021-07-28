@@ -1,0 +1,39 @@
+{
+  "group": "slepice",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "slepice:slepore"
+    },
+    "2": {
+      "item": "slepice:slepore"
+    },
+    "3": {
+      "item": "slepice:slepore"
+    },
+    "4": {
+      "item": "slepice:slepore"
+    },
+    "5": {
+      "item": "slepice:slepore"
+    },
+    "6": {
+      "item": "slepice:slepore"
+    },
+    "7": {
+      "item": "slepice:slepore"
+    },
+    "8": {
+      "item": "slepice:slepore"
+    }
+  },
+  "result": {
+    "item": "slepice:sleporearmor_chestplate",
+    "count": 1
+  }
+}

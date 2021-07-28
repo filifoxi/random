@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "Slepicevoda",
+    "textureStill": "chicken_dungeons",
+    "textureFlowing": "chicken_dungeons",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Slepon"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Slepin"
+      }
+    ]
+  }
+}

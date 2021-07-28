@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slepice:blocks/slepwood",
+    "up": "slepice:blocks/slepwood",
+    "north": "slepice:blocks/slepwood_ore_block",
+    "east": "slepice:blocks/slepwood_ore_block",
+    "south": "slepice:blocks/slepwood_ore_block",
+    "west": "slepice:blocks/slepwood_ore_block",
+    "particle": "slepice:blocks/slepwood"
+  }
+}

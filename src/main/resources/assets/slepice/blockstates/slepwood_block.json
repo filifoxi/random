@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "slepice:block/slepwood_block"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Slepin"
+      },
+      {
+        "value": "nether"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "cold_ocean"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Slepiceblock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Slepicevoda"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:SlepwoodBlock"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Slepon Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "slepicizapik",
+    "portalTexture": "chicken_dungeons",
+    "enablePortal": true
+  }
+}

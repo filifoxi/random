@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "slepice:blocks/redgrasss",
+    "top": "slepice:blocks/wait",
+    "side": "slepice:blocks/redgrass",
+    "overlay": "slepice:blocks/redgrass",
+    "particle": "slepice:blocks/redgrasss"
+  }
+}

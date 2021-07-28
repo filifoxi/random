@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "slepice:block/slepon_portal_ew"
+    },
+    "axis=x": {
+      "model": "slepice:block/slepon_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "slepice",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "slepice:slepore"
+    },
+    "1": {
+      "item": "slepice:slepore"
+    },
+    "2": {
+      "item": "slepice:slepore"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slepice:sleporeaxe",
+    "count": 1
+  }
+}

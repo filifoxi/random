@@ -1,0 +1,26 @@
+{
+  "group": "slepice",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "slepice:slepore"
+    },
+    "2": {
+      "item": "slepice:slepore"
+    },
+    "3": {
+      "item": "slepice:slepore"
+    },
+    "5": {
+      "item": "slepice:slepore"
+    }
+  },
+  "result": {
+    "item": "slepice:sleporearmor_boots",
+    "count": 1
+  }
+}
