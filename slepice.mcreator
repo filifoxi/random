@@ -486,6 +486,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slepiceboss"
+    },
+    {
+      "name": "Kfcpotvurka",
+      "type": "mob",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kfcpotvurka"
+    },
+    {
+      "name": "Nastvanekfc",
+      "type": "mob",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nastvanekfc"
     }
   ],
   "variable_elements": [],
@@ -494,15 +512,19 @@
     "en_us": {
       "item.slepice.slepore": "Slepore",
       "item.slepice.superslepice_spawn_egg": "Superslepice Spawn Egg",
-      "item.slepice.sleporehoe": "Sleporehoe",
       "item.slepice.slepicevoda_bucket": "Slepicevoda Bucket",
+      "item.slepice.sleporehoe": "Sleporehoe",
+      "entity.slepice.kfcpotvurka": "Kfcpotvurka",
       "item.slepice.sleporearmor_leggings": "Sleporearmor Leggings",
       "item.slepice.sleporesword": "Sleporesword",
+      "entity.slepice.nastvanekfc": "Nastvanekfc",
       "item.slepice.kfc": "KFC",
       "block.slepice.strom": "Strom",
       "block.slepice.slepwood_block": "Block of Slepwood",
       "item.slepice.sleporeaxe": "Sleporeaxe",
+      "item.slepice.kfcpotvurka_spawn_egg": "Kfcpotvurka Spawn Egg",
       "item.slepice.sleporearmor_helmet": "Sleporearmor Helmet",
+      "item.slepice.nastvanekfc_spawn_egg": "Nastvanekfc Spawn Egg",
       "item.slepice.slepiceboss_spawn_egg": "Slepiceboss Spawn Egg",
       "biome.slepice.slepin": "Slepín",
       "item.slepice.slepon": "Slepon Portal Igniter",
